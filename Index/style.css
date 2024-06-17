@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 80px;
+  margin: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main {
+  margin: 0 3rem;
+}
+.logo-wrapper img {
+  width: 180px;
+}
+.logo-wrapper p {
+  font-size: 0.9rem;
+  color: green;
+  font-weight: 120;
+}
+nav {
+  display: flex;
+  gap: 1rem;
+}
+nav span {
+  font-size: 0.9rem;
+  color: rgb(100, 99, 99);
+}
+nav div {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+}
+nav img {
+  width: 40px;
+}
+.card {
+  border: 2px solid green;
+  border-radius: 15px;
+  height: 250px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+  border: 2px solid black;
+}
+.card img {
+  width: 300px;
+  height: 75%;
+  object-fit: cover;
+}
+#cards-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
