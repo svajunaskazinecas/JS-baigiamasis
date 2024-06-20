@@ -31,3 +31,10 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch((error) => console.error("Error fetching data:", error));
 });
+
+function addItem() {
+  window.location.href = "../form/form.html";
+}
+function home() {
+  window.location.href - "/index.html";
+}

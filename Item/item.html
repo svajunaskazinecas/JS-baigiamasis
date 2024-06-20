@@ -7,7 +7,24 @@
     <link rel="stylesheet" href="./item.css" />
   </head>
   <body>
+    <header>
+      <div class="logo-wrapper">
+        <img src="../Photos/skelbiu-logo.png" alt="skelbiu-logo" />
+        <p>Lankomiausias skelbimų portalas</p>
+      </div>
+      <nav>
+        <div onclick="addItem()">
+          <img src="../Photos/add-in-new.svg" alt="" />
+          <span>Įdėkite</span>
+        </div>
+        <div onclick="home()">
+          <img src="../Photos/homepage.svg" alt="" />
+          <span>Pagrindinis</span>
+        </div>
+      </nav>
+    </header>
     <div id="item-details"></div>
+    <div id="btn-wrapper"></div>
 
     <script src="./item.js"></script>
   </body>

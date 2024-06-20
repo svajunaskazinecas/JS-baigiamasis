@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 80px;
+  margin: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-wrapper img {
+  width: 180px;
+}
+.logo-wrapper p {
+  font-size: 0.9rem;
+  color: green;
+  font-weight: 120;
+}
+nav {
+  display: flex;
+  gap: 1rem;
+}
+nav span {
+  font-size: 0.9rem;
+  color: rgb(100, 99, 99);
+}
+nav div {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+}
+nav img {
+  width: 40px;
+}
+#item-details {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  padding: 2rem 0rem;
+  gap: 1rem;
+  object-fit: cover;
+  background-color: rgb(231, 229, 229);
+  width: 70%;
+  border-radius: 20px;
+}
+.card img {
+  width: 80%;
+  border-radius: 10px;
+}
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.description {
+  width: 500px;
+  text-align: center;
+  letter-spacing: 0.7px;
+  font-size: 1.1rem;
+}
+.city {
+  font-size: 1.4rem;
+}
+.price {
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  color: green;
+}
+.delete-btn {
+  padding: 1rem;
+  border: none;
+  background-color: rgb(206, 53, 53);
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.delete-btn:hover {
+  background-color: rgb(33, 68, 134);
+  transform: scale(1.05);
+}
+.main-btn {
+  padding: 1rem;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main-btn:hover {
+  background-color: rgb(33, 68, 134);
+  transform: scale(1.05);
+}
+#btn-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
