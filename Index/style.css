@@ -63,6 +63,21 @@ nav img {
 #cards-container {
   margin-top: 5rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+@media (max-width: 768px) {
+  .card {
+    width: 80%;
+    min-width: 20rem;
+    height: 400px;
+  }
+  .card img {
+    width: 80%;
+  }
+  header {
+    min-width: 25rem;
+  }
 }

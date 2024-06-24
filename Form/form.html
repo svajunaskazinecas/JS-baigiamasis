@@ -25,14 +25,17 @@
     </header>
     <main>
       <h3>Įdėkite savo skelbimą</h3>
-      <form>
-        <input type="text" placeholder="Automobilio markė" />
-        <input type="text" placeholder="Kaina" />
-        <input type="text" placeholder="Nuotraukos URL" />
-        <input type="text" placeholder="Aprašymas" />
-        <input type="text" placeholder="Miestas" />
-        <button>Patalpinti</button>
+      <form id="form" onsubmit="postData(event)">
+        <input type="text" id="marke" placeholder="Automobilio markė" />
+        <input type="text" id="kaina" placeholder="Kaina" />
+        <input type="text" id="nuotraukosUrl" placeholder="Nuotraukos URL" />
+        <input type="text" id="aprasymas" placeholder="Aprašymas" />
+        <input type="text" id="miestas" placeholder="Miestas" />
+        <button type="submit">Patalpinti</button>
       </form>
+      <div class="main-btn-wrapper">
+        <button class="main-btn">Grįžti</button>
+      </div>
     </main>
     <script src="./form.js"></script>
   </body>

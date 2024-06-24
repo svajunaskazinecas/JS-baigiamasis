@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         card.append(name);
 
         const price = document.createElement("p");
-        price.textContent = item.Price;
+        price.textContent = item.Price + "$";
         card.append(price);
 
         container.append(card);
